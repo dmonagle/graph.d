@@ -1,7 +1,8 @@
 {
 	"name": "graph",
-	"description": "A minimal D application.",
-	"copyright": "Copyright © 2015, david",
+	"targetType": "library",
+	"description": "Library for managing models, relationships and changes with a persistence layer",
+	"copyright": "Copyright © 2015, David Monagle",
 	"authors": ["david"],
 	"dependencies": {
 		"colorize": "~>1.0.5",

@@ -5,4 +5,4 @@ __dummy.html
 *.obj
 __test__library__
 dub.userprefs
-graph
+libgraph.a
