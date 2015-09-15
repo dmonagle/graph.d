@@ -1,6 +1,7 @@
 ﻿module graph.value.serializer;
 
 import graph.value.value;
+import graph.value.conv;
 import graph.exception;
 
 import std.typetuple;

@@ -7,8 +7,7 @@
 */
 module graph.graph;
 
-import graph.value.serializer;
-import graph.value.value;
+import graph.value;
 import vibe.data.serialization;
 
 import std.algorithm;
@@ -250,7 +249,7 @@ M copyGraphAttributes(M : GraphModelInterface)(ref M dest, const ref M source) {
 /// Merge the GraphValue data into the given model
 M merge(M : GraphModelInterface)(ref M model, GraphValue data) {
 	auto attributes = Graph.serializeModel(model);
-	auto newModel = Graph.deserializeModel!M(graph.value.merge(attributes, data));
+	auto newModel = Graph.deserializeModel!M(graph.value.helpers.merge(attributes, data));
 	model.copyGraphAttributes(newModel);
 
 	return model;
