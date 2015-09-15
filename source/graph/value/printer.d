@@ -1,6 +1,6 @@
-﻿module graph.printer;
+﻿module graph.value.printer;
 
-import graph.value;
+import graph.value.value;
 
 import std.stdio;
 import colorize;
@@ -38,7 +38,7 @@ void print(GraphValue value, int indent = 0, bool repressIndent = false) {
 }
 
 unittest {
-	import graph.array;
+	import graph.value.array;
 	import std.datetime;
 
 	auto car = GraphValue([

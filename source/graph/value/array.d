@@ -1,6 +1,6 @@
-﻿module graph.array;
+﻿module graph.value.array;
 
-import graph.value;
+import graph.value.value;
 
 /// Returns a GraphValue of type array containing GraphValues of the given args
 GraphValue graphArray(T...)(T args) {

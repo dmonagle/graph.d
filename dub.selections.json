@@ -8,6 +8,7 @@
 		"std_data_json": "0.14.0",
 		"openssl": "1.1.4+1.0.1g",
 		"libev": "5.0.0+4.04",
+		"taggedalgebraic": "0.10.0",
 		"libasync": "0.7.5"
 	}
 }

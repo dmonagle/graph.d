@@ -7,6 +7,5 @@
 	"dependencies": {
 		"colorize": "~>1.0.5",
 		"vibe-d": "~>0.7.24",
-		"std_data_json": "~>0.14.0"
 	}
 }

@@ -1,4 +1,4 @@
-﻿module variant_struct.attribute_tree;
+﻿module graph.value.attribute_tree;
 
 import std.string;
 import std.exception : enforce;
